@@ -74,5 +74,13 @@ export const DATOS_HOSPEDAJE = {
             icono: "Trees",
             imagen: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1000&auto=format&fit=crop"
         }
-    ] as Actividad[]
+    ] as Actividad[],
+    galeria: [
+        { id: "1", titulo: "Atardecer en el Río", url: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1200&auto=format&fit=crop" },
+        { id: "2", titulo: "Naturaleza y Silencio", url: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1200&auto=format&fit=crop" },
+        { id: "3", titulo: "Paseos a Caballo", url: "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?q=80&w=1200&auto=format&fit=crop" },
+        { id: "4", titulo: "Cabañas en el Bosque", url: "https://images.unsplash.com/photo-1587061949409-02df41d5e562?q=80&w=1200&auto=format&fit=crop" },
+        { id: "5", titulo: "Canotaje al Sol", url: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=1200&auto=format&fit=crop" },
+        { id: "6", titulo: "Aire Libre y Mates", url: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?q=80&w=1200&auto=format&fit=crop" }
+    ]
 };
