@@ -33,7 +33,7 @@ export const DATOS_HOSPEDAJE = {
             capacidad: "Hasta 8 personas",
             descripcion: "Vista directa al río con amplio deck de madera, parrilla privada y ambientes integrados.",
             caracteristicas: ["Vista al Río", "Parrilla", "Aire Acondicionado", "Wifi"],
-            imagen: "/cabanas/cabana-rio.jpg"
+            imagen: "https://images.unsplash.com/photo-1587061949409-02df41d5e562?q=80&w=1000&auto=format&fit=crop"
         },
         {
             id: "cabana-2",
@@ -41,7 +41,7 @@ export const DATOS_HOSPEDAJE = {
             capacidad: "Hasta 6 personas",
             descripcion: "Ubicada en el corazón del arbolado, rodeada de sombra natural y gran tranquilidad.",
             caracteristicas: ["Cocina Equipada", "Hogar a leña", "Galería", "Wifi"],
-            imagen: "/cabanas/cabana-aromos.jpg"
+            imagen: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1000&auto=format&fit=crop"
         },
         {
             id: "cabana-3",
@@ -49,30 +49,30 @@ export const DATOS_HOSPEDAJE = {
             capacidad: "Hasta 10 personas",
             descripcion: "La más amplia del predio, ideal para familias grandes o grupos de amigos.",
             caracteristicas: ["2 Baños", "Piscina cercana", "Amplio Jardín", "Parrilla doble"],
-            imagen: "/cabanas/cabana-sonada.jpg"
+            imagen: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?q=80&w=1000&auto=format&fit=crop"
         }
     ] as Cabana[],
     actividades: [
         {
             id: "canotaje",
             titulo: "Canotaje en el Río",
-            descripcion: "Explorá los brazos del río en nuestros kayaks equipados para todas las edades.",
+            descripcion: "Explorá los brazos del río en nuestros kayaks equipados para todas las edades. Una experiencia pacífica y en directo contacto con la fauna autóctona.",
             icono: "Waves",
-            imagen: "/actividades/canotaje.jpg"
+            imagen: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=1000&auto=format&fit=crop"
         },
         {
             id: "cabalgatas",
             titulo: "Paseos a Caballo",
-            descripcion: "Recorridos guiados por la extensión del campo al atardecer.",
+            descripcion: "Recorridos guiados por la extensión del campo al atardecer. Ideal para disfrutar en familia de los senderos arbolados.",
             icono: "Compass",
-            imagen: "/actividades/cabalgatas.jpg"
+            imagen: "https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?q=80&w=1000&auto=format&fit=crop"
         },
         {
             id: "caminatas",
-            titulo: "Caminatas & Naturaleza",
-            descripcion: "Hectáreas de verde, plantas autóctonas y espacio abierto para despejarse.",
+            titulo: "Caminatas & Aire Libre",
+            descripcion: "Hectáreas de verde, plantas autóctonas y espacio abierto para despejarse, tomar mate y conectar con el silencio del campo.",
             icono: "Trees",
-            imagen: "/actividades/caminatas.jpg"
+            imagen: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1000&auto=format&fit=crop"
         }
     ] as Actividad[]
 };

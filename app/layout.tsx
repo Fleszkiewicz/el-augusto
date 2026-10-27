@@ -3,6 +3,7 @@ import './globals.css';
 import SmoothScroll from '@/components/SmoothScroll';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://elaugusto.com'), // URL dominio definitivo o borrador
   title: 'El Augusto | Hospedaje de Campo & Cabañas en Baradero',
   description: 'Descansá en un entorno natural único sobre el río en Baradero. Cabañas de gran capacidad, canotaje, cabalgatas y espacio al aire libre.',
   openGraph: {
